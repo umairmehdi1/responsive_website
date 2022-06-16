@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,auto));
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 10px;
+}
+
+.item-1{
+    background-color: blue;
+}
+
+.item-2{
+    background-color: lightseagreen;
+}
+
+.item-3{
+    background-color: lightcoral;
+}
+
+.item-4{
+    background-color: green;
+}
+
+.item-5{
+    background-color: yellow;
+}
+
+.item-6{
+    background-color: red;
+}
+
+.item-7{
+    background-color: pink;
+}
